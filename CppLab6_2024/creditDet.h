@@ -15,9 +15,9 @@ public:
 	creditDet(double wartosc, double percent, int years , int payments_in_year, const char* info = "xxxxxxxxxx");
 	
 
-	//creditDet(const creditDet& k);				//zdefiniuj, je¿eli uwa¿asz ¿e jest potrzebne
-	//creditDet& operator=(const creditDet& k);	//zdefiniuj, je¿eli uwa¿asz ¿e jest potrzebne
-	//~creditDet();						//zdefiniuj, je¿eli uwa¿asz ¿e jest potrzebne
+	creditDet(const creditDet& k);				//zdefiniuj, je¿eli uwa¿asz ¿e jest potrzebne
+	creditDet& operator=(const creditDet& k);	//zdefiniuj, je¿eli uwa¿asz ¿e jest potrzebne
+	~creditDet();						//zdefiniuj, je¿eli uwa¿asz ¿e jest potrzebne
 		
 	void payoff() const;	//rozliczenie kredytu
 

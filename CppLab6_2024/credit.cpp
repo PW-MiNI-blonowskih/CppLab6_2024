@@ -11,7 +11,7 @@ credit::credit(double value, double percent, int years, int payments_in_year, co
 
 double credit::payment() const	//rata kredytu
 {
-	double q{ 1 + (percent / 100 / 12) };
+	double q{ 1 + (percent / 100 / payments_in_year) };
 	double n{ static_cast<double>(payments_in_year * years) };
 
 	double rata{ value * pow(q, n) * (q - 1) / (pow(q, n) - 1) };

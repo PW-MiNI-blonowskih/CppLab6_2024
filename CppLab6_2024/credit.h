@@ -24,7 +24,7 @@ public:
 	int payments() const { return years * payments_in_year; }	//liczba rat kredytu
 	double payment() const;				//rata kredytu
 
-	void write(std::ostream& out) const;
+	virtual void write(std::ostream& out) const;
 	friend std::ostream& operator<<(std::ostream& out, const credit& os);
 
 	

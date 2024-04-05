@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 #include "credit.h"
+#include "creditDet.h"
 
 
 
@@ -24,7 +25,6 @@ int main()
 		cout << "k2=k4" << k2 << endl;
 	}
 
-	/*
 	cout << "--------------------------------------------------------------" << endl;
 	cout<<"ETAP 2 - test class creditDet"<<endl<<endl;
 	{
@@ -39,7 +39,6 @@ int main()
 		cout << "*p: " << *p << endl;
 		delete p;	//czy poprawne?
 	}
-	*/
 
 
 	/*
